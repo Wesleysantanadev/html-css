@@ -179,17 +179,11 @@ a.externo::after{
 }
 
 div.video{
-    position: relative;
-    width: auto;
-    max-width: 560px; /* Largura máxima do vídeo */
-    margin: 0 auto; /* Centraliza o contêiner */
-    aspect-ratio: 16 / 9;
     background-color: #7a9233;
-    padding: 20px 120px;
-    border-radius: 10px;
-}
+    margin: 0px -20px;
 
-div > iframe{
-    height: auto;
-    aspect-ratio: 16/9;
+    position: relative;
+}
+div.video > iframe{
+    position: absolute;
 }
